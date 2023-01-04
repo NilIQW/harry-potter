@@ -3,44 +3,52 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Harry Potter</title>
+        <title>My First Website</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div class="header">
-            <div class="logo">My First Website</div>
-        <ul class="menu">     
-            <li><a href="#">link one</a></li>
-            <li><a href="#">link two</a></li>
-            <li><a href="#">link three</a></li>
+        <header class="header">
+            
+         <nav class="nav"> 
+            <ul class="menu">
+                <div class="logo" id="start">Header Logo</div>
+                <li><a href="#">link one</a></li>
+                <li><a href="#">link two</a></li>
+                <li><a href="#">link three</a></li>
             </ul>
+         </nav>
+         <div class="content">
             <h2>This website is awesome</h2>
-            <p>Some paragraph</p>
-            <button>Sign up</button>
-            <img src="">
+            <p>This website has some subtext that goes here under the main title. It's smaller font and the colot is lower contrast</p>
+            <button><a href="#">Sign Up</a></button>
+            <img src="../harry-potter/images/logo.jpg" alt="Just a pic">
+         </div>
+        </header>
+        
+        <div class="main">
+            <div class="box">
+                <h1>Some random information</h1>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+           
+           <div class="quote">
+           Inspiring text
+           </div>
+
+           <div class="signup">
+              <h3>Call to action!</h3>
+              <p>Sign up for ..</p>
+              <button>Sign up</button>
+           </div>
         </div>
 
-        <h1>Some random info</h1>
-        <ul>
-            <li><img src="">
-            </li>
-        </ul>
-
-
-        <div class="quote">
-        Inspiring text
-        </div>
-
-        <div class="blue">
-            <h3>Call to action!</h3>
-            <p>Sign up for ..</p>
-            <button>Sign up</button>
-        </div>
-
-        <div class="footer">
+        <footer class="footer">
             <div>Copyright</div>
-        </div>
+        </footer>
 
     </body>
 
